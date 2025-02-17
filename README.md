@@ -1,8 +1,27 @@
-# React + Vite
+# Product Feedback App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Acunmedya Akademi'deki kamp sürecinde başarıyla tamamlanan "Product Feedback App" projesi.
 
-Currently, two official plugins are available:
+## Katılımcılar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Buse Savaş
+- Mehmet Akif Küçükyılmaz
+- Ömer KULUÇ
+
+## Proje Açıklaması
+
+Bu projede Git versiyon kontrol sistemi etkin bir şekilde kullanılarak aşağıdaki özellikler geliştirildi.
+
+### Özellikler
+
+- **Yorumlara Yanıt Verme**: Kullanıcılar mevcut yorumlara yanıt verebilirler.
+- **Yorum Ekleme, Düzenleme ve Silme**: Kullanıcılar yeni yorum ekleyebilir, mevcut yorumlarını düzenleyebilir veya silebilirler.
+- **Yorumların Sınıflandırılması**: Yorumlar etiketler (All, UI, Feature, UX, Enhancement, Bug) aracılığıyla sınıflandırıldı ve kullanıcıların filtreleme yapabilmesi sağlandı.
+- **Yorum Sıralama**: Kullanıcıların en çok beğenilen, en az beğenilen, en çok yorum alan ve en az yorum alan yorumları görmesi için sıralama menüsü oluşturuldu.
+- **Roadmap Sayfası**: Yorumların durumlarına göre (Planned, In-Progress, Live) bir roadmap sayfası oluşturuldu. Kullanıcılar bu sayfa üzerinden yorumların durumlarını takip edebilirler.
+
+### Teknolojiler
+
+- **Hash Router**: Sayfalar arasında geçişi hash router ile sağladık.
+- **React Hot Toast**: Kullanıcılara anlık bildirimler göstermek için React Hot Toast kütüphanesi kullanıldı.
+- **LocalStorage**: Verilerin kaybolmaması için tüm veriler localStorage'e kaydedildi.
