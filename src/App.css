@@ -1,0 +1,1904 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.suggestionsPageHeader {
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 24px;
+  position: relative;
+  z-index: 100;
+  height: 72px;
+
+  img {
+    padding-block: 27px;
+    cursor: pointer;
+  }
+}
+
+/* akif baslangic */
+
+/* selection area */
+
+.selection-area {
+  background-color: rgba(55, 63, 104, 1);
+  padding-inline: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addFeedbackBtn {
+  background-color: rgba(173, 31, 234, 1);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-block: 10px;
+}
+
+/* Main Page Component start */
+
+.feedbackList {
+  margin-top: 32px;
+}
+
+.feedback {
+  padding: 24px;
+  background-color: white;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.feedback h5 {
+  color: rgba(58, 67, 116, 1);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: -0.18px;
+  background-color: white;
+}
+
+.feedback p {
+  margin-block: 8px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;  
+  color: #647196;
+}
+
+.feedback button {
+  border: none;
+}
+
+.feedbackBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .upvote-section {
+    justify-content: center;
+  }
+}
+
+/* Main Page Component end */
+
+/* Detail Page Component start */
+
+.detailPage {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.detailPageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* gaye düzenleme başlangıç */
+
+.goBack,
+.goBack-new-edit-page a {
+  color: rgba(100, 113, 150, 1);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.goBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15.67px;
+}
+
+.goBack,
+.goBack-new-edit-page svg path {
+  stroke: #4661e6;
+}
+
+.goBack-new-edit-page {
+  display: flex;
+  align-items: center;
+  gap: 15.67px;
+  margin-bottom: 35px;
+}
+
+.editBtn {
+  background-color: rgba(70, 97, 230, 1);
+  color: white;
+  padding: 10.5px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+}
+
+/* gaye düzenleme bitiş */
+
+.commentsSection {
+  padding: 24px;
+  background-color: white;
+}
+
+.commentsSection h5 {
+  color: rgba(58, 67, 116, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26.01px;
+  letter-spacing: -0.25px;
+  margin-bottom: 24px;
+}
+
+.commentsList p {
+  color: rgba(100, 113, 150, 1);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+}
+
+.comment-button {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+/* Detail Page Component end */
+
+/* Empty-page start */
+
+.empty-page {
+  background-color: white;
+  margin-block: 32px 47px;
+  margin-inline: 24px;
+  padding-block: 76px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+
+  h3 {
+    color: rgba(58, 67, 116, 1);
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26.01px;
+    letter-spacing: -0.25px;
+    margin-block: 39px 12px;
+  }
+
+  p {
+    color: rgba(100, 113, 150, 1);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+    padding-inline: 24px;
+  }
+
+  button {
+    background-color: rgba(173, 31, 234, 1);
+    color: white;
+    padding: 16px 10.5px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18.79px;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+.button-flex button {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  background-color: transparent;
+}
+
+/* Empty Page end */
+
+/* akif bitiş */
+
+.headerText {
+  padding-block: 15px;
+  color: #ffffff;
+  width: 100%;
+
+  h5 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21.68px;
+    letter-spacing: -0.19px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: 0px;
+  }
+}
+
+.hamburger-menu-overlay.block::before {
+  content: "";
+  position: fixed;
+  z-index: 200;
+  z-index: 10;
+  top: 72px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hamburger-menu-content.block {
+  position: absolute;
+  z-index: 300;
+  height: 100vh;
+  width: 271px;
+  top: 72px;
+  right: 0;
+  background-color: #f7f8fd;
+  padding: 24px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+
+  .hamburgerCategoriesBox {
+    width: 100%;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 24px;
+
+    .hamburgerCategories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      button {
+        font-family: Jost;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18.79px;
+        letter-spacing: 0px;
+        background-color: #f2f4ff;
+        color: #4661e6;
+        padding: 5px 16px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      button.active {
+        background-color: #4661e6;
+        color: white;
+      }
+    }
+  }
+
+  .hamburgerRoadmapBox {
+    width: 100%;
+    padding: 19px 24px;
+    background-color: white;
+    border-radius: 10px;
+
+    .hamburgerRoadmapBoxHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+
+      h6 {
+        font-family: Jost;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26.01px;
+        letter-spacing: -0.25px;
+        color: #3a4374;
+      }
+
+      a {
+        font-family: Jost;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18.79px;
+        letter-spacing: 0px;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: Auto;
+        color: #4661e6;
+      }
+    }
+    ul {
+      .inProgress span {
+        background-color: #ad1fea;
+      }
+
+      .planned span {
+        background-color: #f49f85;
+      }
+
+      .live span {
+        background-color: #62bcfa;
+      }
+
+      li {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-family: Jost;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 23.12px;
+          letter-spacing: 0px;
+          text-align: right;
+          color: #647196;
+        }
+
+        h6 {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          font-family: Jost;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23.12px;
+          letter-spacing: 0px;
+          color: #647196;
+
+          span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hamburger-menu {
+  position: relative;
+  z-index: 400;
+
+  .categories {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 24px 18px 36px 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    button {
+      background-color: #f2f4ff;
+      color: #4661e6;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18.79px;
+      letter-spacing: 0px;
+      border: none;
+      padding: 5px 16px;
+      border-radius: 10px;
+    }
+
+    button:active,
+    button:focus {
+      background-color: #4661e6;
+      color: #fff;
+    }
+
+    button:hover {
+      background-color: #cfd7ff;
+    }
+  }
+}
+
+.hamburger-menu-overlay.none,
+.hamburger-menu-content.none {
+  display: none;
+}
+
+.hamburger-menu-overlay.block,
+.hamburger-menu-content.block {
+  display: block;
+}
+
+.commentsList {
+  list-style: none;
+  padding: 0;
+}
+
+.authorSection {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.commentAuthor {
+  display: flex;
+  flex-direction: column;
+}
+
+.addComment {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.addComment form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addComment textarea {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+}
+
+.commentFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.commentFooter p {
+  font-size: 14px;
+  color: #666;
+}
+
+.commentFooter button {
+  background: #4661e6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.commentFooter button:disabled {
+  background: #b3b3b3;
+  cursor: not-allowed;
+}
+
+/* omer baslangic*/
+
+.detailPageContainer {
+  padding: 24px;
+}
+
+.detailPageFeedback {
+  background-color: white;
+  margin-block: 24px;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.feedbackTitleHeader {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: -0.18px;
+  color: #3a4374;
+  margin-bottom: 9px;
+}
+
+.feedbackDescription {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  color: #647196;
+  margin-bottom: 10px;
+}
+
+.feedbackCategory {
+  background-color: #f2f4fe;
+  color: #4661e6;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  padding: 5px 16px;
+  border-radius: 10px;
+}
+
+.upvoteCommentsSection {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upvoteSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #f2f4ff;
+  border-style: none;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upvoteSection:hover {
+  background-color: #cfd7ff;
+  color: #3a4374;
+}
+
+.upvoteCount {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: -0.18px;
+  color: #3a4374;
+}
+
+.commentCountNumber {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: -0.18px;
+  color: #3a4374;
+}
+
+.commentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.commentsList .commentAuthorName,
+.replyAuthorName {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: -0.18px;
+  color: #3a4374;
+}
+
+.commentsList ,
+.replyAuthorUsername {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  color: #3a4374;
+  margin-top: 0;
+}
+
+.commentAuthorUserName {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  color: #0326e9;
+  margin-top: 0;
+}
+
+.replyUserInfo {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.commentsList .commentContent {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  color: #647196;
+  margin-left: 40px;
+  margin-top: 17px;
+}
+
+.replyBtn {
+  border-style: none;
+  color: #4661e6;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #fff;
+  margin-left: auto;
+}
+
+.replyArea {
+  margin-top: 24px;
+  background: #f1f1f9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 40px;
+  border-left: 2px solid #ccc;
+}
+
+.replyCommentAuthor {
+  display: flex;
+  flex-direction: column;
+}
+
+.addCommentHeader {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26.01px;
+  letter-spacing: -0.25px;
+  color: #3a4374;
+}
+
+.addComment .addCommentTextArea {
+  margin-top: 24px;
+  background-color: #f7f8fd;
+  cursor: pointer;
+}
+
+.addCommentTextArea:hover {
+  border: 1px solid #4661e6;
+}
+
+.commentFooter .leftCharactersCount {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  color: #647196;
+}
+
+.commentFooter .postCommentButton {
+  width: 119;
+  height: 40;
+  border-radius: 10px;
+  padding: 10px 16px;
+  background-color: #ad1fea;
+  color: #f2f4fe;
+  cursor: pointer;
+}
+
+/* omer bitis */
+
+/* buse başlangıç */
+
+.roadmapPageContainer {
+  background-color: #f7f8ff;
+
+  .roadmapPageHeader {
+    display: flex;
+    background-color: #373f68;
+    padding: 26px 24px;
+    justify-content: space-between;
+
+    .addFeedbackBtnRoadmap {
+      font-family: Jost;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18.79px;
+      letter-spacing: 0px;
+      color: #f2f4fe;
+      width: 134px;
+      height: 40px;
+      background-color: #ad1fea;
+      border-radius: 10px;
+      border: none;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .roadmapNavigation {
+    ul {
+      display: flex;
+      padding: 0px;
+      list-style: none;
+      border-bottom: 1px solid #8c92b3;
+
+      li {
+        padding-top: 20px;
+        padding-bottom: 16px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 4px solid transparent;
+        font-family: Jost;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18.79px;
+        letter-spacing: -0.18px;
+        text-align: center;
+        color: rgba(58, 67, 116, 0.4);
+      }
+
+      li.active {
+        border-bottom: 4px solid #ad1fea;
+        color: rgba(58, 67, 116, 1);
+      }
+    }
+  }
+
+  .roadMapPageCategories.planned.active {
+    border-bottom: 4px solid #f49f85;
+    color: #3a4374;
+  }
+
+  .roadMapPageCategories.inProgress.active {
+    border-bottom: 4px solid #ad1fea;
+    color: #3a4374;
+  }
+
+  .roadMapPageCategories.live.active {
+    border-bottom: 4px solid #62bcfa;
+    color: #3a4374;
+  }
+
+  .roadmapGoBack {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    h5 {
+      font-family: Jost;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26.01px;
+      letter-spacing: -0.25px;
+      color: white;
+    }
+
+    .goBackBtnRoadmap {
+      display: flex;
+      align-items: center;
+      gap: 15.67px;
+
+      span {
+        font-family: Jost;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18.79px;
+        letter-spacing: 0px;
+        color: white;
+      }
+    }
+  }
+
+  .filteredFeedbacks {
+    padding: 24px;
+
+    .statusSection {
+      h5 {
+        font-family: Jost;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26.01px;
+        letter-spacing: -0.25px;
+        color: #3a4374;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 24px;
+
+        li {
+          background-color: #ffffff;
+          padding: 16px 24px;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+
+          h2 {
+            font-family: Jost;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 18.79px;
+            letter-spacing: 0px;
+            color: #647196;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+          }
+
+          .feedbackRoadmapPageStatus {
+            span {
+              display: inline-block;
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+            }
+          }
+
+          h5 {
+            font-family: Jost;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18.79px;
+            letter-spacing: -0.18px;
+            color: #3a4374;
+            margin-bottom: 8px;
+          }
+
+          p {
+            font-family: Jost;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 18.79px;
+            letter-spacing: 0px;
+            color: #647196;
+            margin-bottom: 8px;
+          }
+
+          h6 {
+            font-family: Jost;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18.79px;
+            letter-spacing: 0px;
+            color: #4661e6;
+            background-color: #f2f4ff;
+            display: inline-block;
+            padding: 5px 17px;
+            border-radius: 10px;
+            margin-bottom: 16px;
+          }
+
+          .roadmapFeedbackBtns {
+            display: flex;
+            justify-content: space-between;
+
+            .roadmapUpvotesBtn {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              background-color: #f2f4fe;
+              width: 69px;
+              height: 32px;
+              border: none;
+              border-radius: 10px;
+            }
+
+            .roadmapCommentsBtn {
+              display: flex;
+              align-items: center;
+              gap: 4px;
+              border: none;
+              padding: 5px;
+              background-color: transparent;
+            }
+
+            span {
+              font-family: Jost;
+              font-weight: 700;
+              font-size: 13px;
+              line-height: 18.79px;
+              letter-spacing: -0.18px;
+              text-align: center;
+              color: #3a4374;
+            }
+          }
+        }
+      }
+    }
+
+    .statusSection.planned li {
+      border-top: 6px solid #f49f85;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .statusSection.planned .feedbackRoadmapPageStatus span {
+      background-color: #f49f85;
+    }
+
+    .statusSection.inProgress li {
+      border-top: 6px solid #ad1fea;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .statusSection.inProgress .feedbackRoadmapPageStatus span {
+      background-color: #ad1fea;
+    }
+
+    .statusSection.live li {
+      border-top: 6px solid #62bcfa;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .statusSection.live .feedbackRoadmapPageStatus span {
+      background-color: #62bcfa;
+    }
+  }
+}
+
+.commentsBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.sort-button {
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  gap: 9px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.23px;
+  letter-spacing: 0px;
+  color: rgba(242, 244, 254, 0.75);
+
+  span {
+    font-weight: 700;
+  }
+
+  .upIcon {
+    color: #ffffff;
+  }
+
+  .downIcon {
+    color: #ffffff;
+  }
+}
+
+.selectedOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* buse bitiş */
+
+/*omer-start*/
+.feedbackCategory {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+  color: #4661e6;
+  background-color: #f2f4ff;
+  display: inline-block;
+  padding: 5px 17px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.commentHeader {
+  display: flex;
+}
+
+.replyBtn {
+  border-style: none;
+  color: #4661e6;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #fff;
+  margin-left: auto;
+}
+
+.replyArea {
+  background: #f5f5fb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: blue;
+}
+
+.replyArea textarea {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.reply {
+  background: #f1f1f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-top: 10px;
+  position: relative;
+  margin-left: 40px; /* Yanıtları biraz içeri al */
+  padding-left: 10px;
+  border-left: 2px solid #ccc; /* Görsel olarak ayrıştır */
+}
+/*omer-end*/
+
+/* gaye başlangıç */
+
+.new-feedback-container-inner {
+  max-width: 327px;
+  margin-inline: auto;
+  padding-block: 34px;
+}
+
+.username {
+  color: #ad1fea;
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: 0px;
+}
+
+.add-icon {
+  background: radial-gradient(
+      128.88% 128.88% at 103.9% -10.39%,
+      #e84d70 0%,
+      #a337f6 53.09%,
+      #28a7ed 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+.upvote-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f2f4fe;
+  width: 69px;
+  height: 32px;
+  border: none;
+  border-radius: 10px;
+}
+
+.upvote-section:hover {
+  background-color: #cfd7ff;
+  color: #3a4374;
+}
+
+.upvote-section p {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18.79px;
+  letter-spacing: -0.18px;
+  text-align: center;
+  color: #3a4374;
+}
+
+.new-feedback-page,
+.edit-feedback-page {
+  margin-inline: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-inline: 24px;
+  padding-bottom: 24px;
+  padding-top: 44px;
+  position: relative;
+
+  h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26.01px;
+    letter-spacing: -0.25px;
+    color: #3a4374;
+    margin-bottom: 24px;
+  }
+}
+
+.new-feedback-form-section form,
+.edit-feedback-form-section form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  label {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: -0.18px;
+    color: #3a4374;
+    margin-bottom: 3px;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: 0px;
+    color: #647196;
+    margin-bottom: 16px;
+  }
+
+  input,
+  textarea {
+    background-color: #f7f8fd;
+    border: none;
+    border-radius: 5px;
+    min-width: 279px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.68px;
+    letter-spacing: 0px;
+    color: #3a4374;
+  }
+
+  input {
+    min-height: 48px;
+  }
+
+  textarea {
+    min-height: 120px;
+    resize: none;
+  }
+
+  input:focus,
+  textarea:focus {
+    border: 1px solid #4661e6;
+  }
+}
+
+.feedback-title,
+.category-part,
+.status-part,
+.feedback-detail-part,
+.btns-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns-part {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 16px;
+
+  button {
+    width: 100%;
+    padding-block: 10.5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: 0px;
+    color: #f2f4fe;
+    cursor: pointer;
+  }
+}
+
+.btns-part-edit {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 16px;
+
+  button, a {
+    padding-block: 10.5px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: 0px;
+    color: #f2f4fe;
+    cursor: pointer;
+  }
+}
+
+.btns-right-side {
+  display: grid;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.save-changes-btn {
+  grid-row: 1;
+}
+
+.add-feedback-btn,
+.save-changes-btn {
+  background-color: #ad1fea;
+}
+
+.cancel-btn {
+  background-color: #3a4374;
+  grid-row: 2;
+}
+
+.delete-btn {
+  background-color: #d73737;
+  grid-row: 3;
+  margin-top: 16px;
+}
+
+.add-feedback-btn:hover,
+.save-changes-btn:hover {
+  background-color: #c75af6;
+}
+
+.cancel-btn:hover {
+  background-color: #656ea3;
+}
+
+.delete-btn:hover {
+  background-color: #e98888;
+}
+.select-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  background-color: #f7f8fd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.selected-option {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18.79px;
+    letter-spacing: 0px;
+    color: #3a4374;
+    align-self: center;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  top: 120px;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 255px;
+  box-shadow: 0px 10px 40px -7px #373f6859;
+
+  li {
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.12px;
+    letter-spacing: 0px;
+    color: #647196;
+    padding: 12px 24px;
+    border-bottom: 1px solid rgba(58, 67, 116, 0.15);
+  }
+}
+
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px -7px #373f6859;
+  z-index: 1000;
+  background: white;
+  display: none;
+}
+
+.select-wrapper.active .dropdown li {
+  display: block;
+}
+
+.select-wrapper.active .dropdown-options {
+  display: block;
+}
+
+.option-item {
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.12px;
+  letter-spacing: 0px;
+  color: #647196;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(58, 67, 116, 0.15);
+}
+
+.option-item:hover {
+  color: #ad1fea;
+}
+/* gaye bitiş */
+
+@media (width >= 768px) {
+  .hamburger-menu-overlay,
+  .hamburger-menu {
+    display: none;
+  }
+
+  /* buse başlangıç */
+
+  .roadmapPageContainer {
+    padding: 56px 39px;
+
+    .roadmapPageHeader {
+      border-radius: 10px;
+    }
+
+    .filteredFeedbacks {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .statusSection {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .feedbackItem {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+      min-height: 200px;
+      height: 100%;
+    }
+
+    .filteredFeedbacks {
+      align-items: stretch;
+    }
+  }
+
+  .suggestionsPage {
+    padding: 56px 40px;
+  }
+
+  .selection-area {
+    border-radius: 10px;
+  }
+
+  .selection-area-text {
+    display: flex;
+    gap: 16px;
+
+    p {
+      display: flex;
+      font-family: Jost;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26.01px;
+      letter-spacing: -0.25px;
+      color: white;
+    }
+  }
+
+  .tabletHeaderSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .tabletHeaderTextBox {
+    background: radial-gradient(
+      128.88% 128.88% at 103.9% -10.39%,
+      #e84d70 0%,
+      #a337f6 53.09%,
+      #28a7ed 100%
+    );
+    height: 178px;
+    width: 33%;
+    display: flex;
+    align-items: end;
+    padding: 24px;
+    border-radius: 10px;
+
+    h5 {
+      font-family: Jost;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28.9px;
+      letter-spacing: -0.25px;
+      color: white;
+    }
+
+    p {
+      font-family: Jost;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 21.68px;
+      letter-spacing: 0px;
+      color: white;
+    }
+  }
+
+  .tabletCategoriesBox {
+    width: 33%;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    .tabletCategories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      button {
+        font-family: Jost;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18.79px;
+        letter-spacing: 0px;
+        background-color: #f2f4ff;
+        color: #4661e6;
+        padding: 5px 16px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      button.active {
+        background-color: #4661e6;
+        color: white;
+      }
+    }
+  }
+
+  .tabletRoadmapBox {
+    width: 33%;
+    padding: 19px 24px;
+    background-color: white;
+    border-radius: 10px;
+
+    .tabletRoadmapBoxHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+
+      h6 {
+        font-family: Jost;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26.01px;
+        letter-spacing: -0.25px;
+        color: #3a4374;
+      }
+
+      a {
+        font-family: Jost;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18.79px;
+        letter-spacing: 0px;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: Auto;
+        color: #4661e6;
+      }
+    }
+    ul {
+      .inProgress span {
+        background-color: #ad1fea;
+      }
+
+      .planned span {
+        background-color: #f49f85;
+      }
+
+      .live span {
+        background-color: #62bcfa;
+      }
+
+      li {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-family: Jost;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 23.12px;
+          letter-spacing: 0px;
+          text-align: right;
+          color: #647196;
+        }
+
+        h6 {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          font-family: Jost;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23.12px;
+          letter-spacing: 0px;
+          color: #647196;
+
+          span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+
+  .feedback-tablet {
+    display: flex;
+
+    .upvote-section {
+      display: flex;
+      flex-direction: column;
+      width: 40px;
+      height: 53px;
+      margin-right: 40px;
+      padding-top: 12px;
+
+      p {
+        margin: 0px;
+      }
+    }
+
+    .feedbackText {
+      margin-right: auto;
+      align-items: center;
+      cursor: pointer;
+
+      p {
+        font-family: Jost;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23.12px;
+        letter-spacing: 0px;
+        color: #647196;
+      }
+
+      h5 {
+        font-family: Jost;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26.01px;
+        letter-spacing: -0.25px;
+        color: #3a4374;
+      }
+    }
+  }
+
+  .feedback {
+    padding: 28px 32px;
+  }
+
+  /* buse bitiş */
+
+  /* gaye başlangıç */
+
+  .new-feedback-container-inner {
+    max-width: 540px;
+    padding-block: 56px;
+  }
+
+  .goBack,
+  .goBack-new-edit-page {
+    font-size: 14px;
+    line-height: 20.23px;
+  }
+
+  .goBack-new-edit-page {
+    margin-bottom: 40px;
+  }
+
+  .editBtn {
+    font-size: 14px;
+    line-height: 20.23px;
+  }
+
+  .add-icon {
+    background: radial-gradient(
+        128.88% 128.88% at 103.9% -10.39%,
+        #e84d70 0%,
+        #a337f6 53.09%,
+        #28a7ed 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 25px;
+  }
+
+  .new-feedback-page,
+  .edit-feedback-page {
+    padding-inline: 42px;
+    padding-bottom: 40px;
+    padding-top: 52px;
+
+    h2 {
+      font-size: 24px;
+      line-height: 34.68px;
+      letter-spacing: -0.33px;
+      color: #3a4374;
+      margin-bottom: 40px;
+    }
+  }
+
+  .new-feedback-form-section form,
+  .edit-feedback-form-section form {
+    label {
+      font-size: 14px;
+      line-height: 20.23px;
+      letter-spacing: -0.19px;
+      margin-bottom: 2px;
+    }
+
+    span {
+      font-size: 14px;
+      line-height: 20.23px;
+      margin-bottom: 16px;
+    }
+
+    input,
+    textarea {
+      padding: 13px 24px;
+    }
+
+    textarea {
+      min-height: 98px;
+    }
+  }
+
+  .btns-part {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 32px;
+
+    button {
+      width: auto;
+      padding: 10.5px 24px;
+    }
+  }
+
+  .btns-part-edit {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      padding: 10.5px 24px;
+      font-size: 14px;
+      line-height: 20.23px;
+    }
+  }
+
+  .delete-btn {
+    margin-top: 0;
+  }
+
+  .btns-right-side {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .select-wrapper {
+    max-width: 456px;
+  }
+  /* gaye bitiş */
+}
+
+@media (width >= 1110px) {
+  .suggestionsPage {
+    display: flex;
+    gap: 30px;
+  }
+
+  .tabletHeaderSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .suggestionPageInner {
+    width: 100%;
+  }
+
+  .tabletHeaderTextBox,
+  .tabletCategoriesBox,
+  .tabletRoadmapBox {
+    width: 100%;
+    width: 255px;
+  }
+
+  .page {
+    max-width: 1110px;
+    margin-inline: auto;
+  }
+  .roapmapContainer {
+    padding: 78px 165px;
+  }
+
+  .dropdown {
+    top: 130px;
+  }
+  /* gaye başlangıç */
+
+  .new-feedback-container-inner {
+    max-width: 540px;
+    padding-block: 92px;
+  }
+
+  .goBack-new-edit-page {
+    margin-bottom: 40px;
+  }
+
+  .editBtn {
+    font-size: 14px;
+    line-height: 20.23px;
+  }
+
+  .add-icon {
+    background: radial-gradient(
+        128.88% 128.88% at 103.9% -10.39%,
+        #e84d70 0%,
+        #a337f6 53.09%,
+        #28a7ed 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 25px;
+  }
+
+  .new-feedback-page,
+  .edit-feedback-page {
+    padding-inline: 42px;
+    padding-bottom: 40px;
+    padding-top: 52px;
+
+    h2 {
+      font-size: 24px;
+      line-height: 34.68px;
+      letter-spacing: -0.33px;
+      color: #3a4374;
+      margin-bottom: 40px;
+    }
+  }
+
+  .new-feedback-form-section form,
+  .edit-feedback-form-section form {
+    label {
+      font-size: 14px;
+      line-height: 20.23px;
+      letter-spacing: -0.19px;
+      margin-bottom: 2px;
+    }
+
+    span {
+      font-size: 14px;
+      line-height: 20.23px;
+      margin-bottom: 16px;
+    }
+
+    input,
+    textarea {
+      padding: 13px 24px;
+    }
+
+    textarea {
+      min-height: 98px;
+    }
+  }
+
+  .btns-part {
+    margin-top: 32px;
+
+    button {
+      width: auto;
+      padding: 10.5px 24px;
+    }
+  }
+
+  .btns-part-edit {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      padding: 10.5px 24px;
+      font-size: 14px;
+      line-height: 20.23px;
+    }
+  }
+
+  .delete-btn {
+    margin-top: 0;
+  }
+
+  .btns-right-side {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .select-wrapper {
+    max-width: 456px;
+  }
+  /* gaye bitiş */
+}
