@@ -26,6 +26,6 @@ Bu projede Git versiyon kontrol sistemi etkin bir şekilde kullanılarak aşağ�
 - **React Hot Toast**: Kullanıcılara anlık bildirimler göstermek için React Hot Toast kütüphanesi kullanıldı.
 - **LocalStorage**: Verilerin kaybolmaması için tüm veriler localStorage'e kaydedildi.
 
-- ### Gelecek Güncellemeler
+### Gelecek Güncellemeler
 
 - Daha fazla kişiselleştirme ve kullanıcı deneyimini iyileştirmek adına kullanıcıların kimlik doğrulama ile giriş yapabileceği bir sistem de entegre edilecek.
